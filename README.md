@@ -1,16 +1,52 @@
-# React + Vite
+# React Login Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern **login card UI** built with **React** and **Tailwind CSS**.  
+The project demonstrates a responsive login form with hover and click effects on buttons, and visually styled input fields.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+- [React Login Card](#react-login-card)
+  - [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
+  - [Features](#features)
+  - [Installation](#installation)
+    - [Usage](#usage)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Login Card Screenshot](./public/SimpleLogin.png)  
+_Add a screenshot or GIF of your login card here._
+
+---
+
+## Features
+
+- Modern, responsive login form
+- Button with hover lift and click press effect
+- Input fields with persistent outlines
+- Smooth transitions using Tailwind CSS
+- Easy to customize and extend
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/react-login-card.git
+```
+
+2. Navigate into the project:
+   `cd react-login-card`
+3. Install dependencies:
+   `npm install`
+
+### Usage
+
+- Start the development server:
+- `npm run dev`
